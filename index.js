@@ -6,6 +6,8 @@ require("dotenv").config();
 
 const { match } = require('assert/strict');
 
+const VERSION = "1.1.1";
+
 const client = new Client();
 // Prefix for commands
 const prefix = '!';
@@ -46,7 +48,7 @@ client.on('messageCreate', async message => {
 // log a message in the console when the selfbot is ready
 // ==================================================
 client.on('ready', () => {
-    console.log(`Selfbot connected as ${client.user.tag}`);
+    console.log(`Selfbot connected as ${client.user.tag} (v${VERSION}). Repo: https://github.com/anytngv2/discord-selfbot-base`);
 });
 
 client.login(process.env.TOKEN);
