@@ -27,13 +27,13 @@
 
 ## 📖 About
 
-This project provides a clean, ready-to-use foundation for creating Discord selfbots without boilerplate setup. It handles the core infrastructure—command loading, environment configuration, and message handling—so you can focus on writing actual functionality.
+This project provides a clean, ready-to-use foundation for creating Discord selfbots without boilerplate setup. It handles the core infrastructure command loading, environment configuration, and message handling, so you can focus on writing actual functionality.
 
 **How it works:** The bot automatically imports all JavaScript files from the `commands/` directory, listens for messages starting with the `!` prefix, and executes commands only when triggered by the authorized owner (specified in your `.env` file). This ensures secure, personalized automation.
 
 ## ✨ Features
 
-- 🚀 **Instant Setup:**  Pre-built core with command auto-loading -start coding features immediately.
+- 🚀 **Instant Setup:** Pre-built core with command auto-loading, start coding features immediately.
 - 🔒 **Secure by Default:** Owner-only command execution prevents unauthorized access.
 - 🛠️ **Extensible:** Drop new command files into `commands/` no core changes needed.
 - 🎨 **Lightweight:** Minimal dependencies, fast startup, efficient resource usage.
@@ -76,7 +76,7 @@ Follow these steps to get SelfBot up and running:
 Once running, the selfbot logs in and monitors all messages. When you (the owner) send a message starting with `!` , it executes the matching command from the `commands/` folder.
 
 ***example workflow:***
-- Create ```commands/ping.js```, and send `!ping` in any channel. -> Bot executes your code.
+- Create ```commands/ping.js```, send `!ping` in any channel. -> Bot executes your code.
 
 ## 📸 Preview
 
